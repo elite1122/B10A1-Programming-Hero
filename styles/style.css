@@ -205,6 +205,51 @@ nav>button>a{
     font-weight: 600;
     text-align: center;
 }
-/* why-web-dev styles end */
+/* why-web-dev styles end*/
 
+
+/* my-inspiration styles start */
+#inspiration-container{
+    margin: 0px 150px 149px 150px;
+    border: 2px solid red;
+}
+.inspiration-title-description{
+    border: 2px solid red;
+    margin: 0px 144px 48px 144px;
+}
+.inspiration-title-description>h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 37px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 87px 16px 0px;
+}
+.inspiration-title-description>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0px 9px 32px 0px;
+}
+.video-bg{
+    border: 2px solid red;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+.video-content{
+    border: 2px solid red;
+    margin: 32px;
+   
+}
+.main-video{
+    border-radius: 16px;
+}
+/* my-inspiration styles end */
 
