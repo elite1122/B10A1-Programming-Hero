@@ -8,6 +8,8 @@
 body{
     font-family: Azeret Mono, serif;
 }
+
+/* nav styles start*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -34,10 +36,82 @@ nav button{
     opacity: 0.8;
     margin: 35px 166px 35px 0px;
 }
-nav>button>p{
+nav>button>a{
+    text-decoration: none;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+}
+
+/* nav styles end */
+
+/* banner styles start */
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    width: 240.28px;
+    height: 240px;
+    margin-top: 26px;
+}
+.banner h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin: 32px 73px 0px 73px;
+    padding: 0;
+    margin: 0;
+}
+.banner>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 24px 73px 32px 73px;
+    opacity: 0.7;
+
+}
+.banner button{
+    width: 208px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin-bottom: 44px;
+}
+.banner>button>a{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.bg-header{
+    width: 100%;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
