@@ -9,6 +9,16 @@ body{
     font-family: Azeret Mono, serif;
 }
 
+/* shared css */
+.lg-color1{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.lg-color2{
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
 /* nav styles start*/
 nav{
     display: flex;
@@ -19,22 +29,18 @@ nav>h4{
     font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
-    width: 114px;
-    height: 34px;
     margin: 47px 0px 47px 150px;
 }
 nav button{
-    width: 228px;
-    height: 58px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
-    margin: 35px 166px 35px 0px;
+    margin: 38px 166px 35px 0px;
+    padding: 17px 24px;
 }
 nav>button>a{
     text-decoration: none;
@@ -51,18 +57,19 @@ nav>button>a{
 .banner-container{
     display: flex;
     justify-content: center;
+    
 }
 .banner{
-    width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 26px 221px 44px 221px;
+
 }
 .banner img{
     width: 240.28px;
     height: 240px;
-    margin-top: 26px;
 }
 .banner h2{
     color: rgb(13, 19, 33);
@@ -86,7 +93,7 @@ nav>button>a{
     opacity: 0.7;
 
 }
-.banner button{
+.banner>button{
     width: 208px;
     height: 66px;
     display: flex;
@@ -95,7 +102,6 @@ nav>button>a{
     align-items: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    margin-bottom: 44px;
 }
 .banner>button>a{
     color: rgb(255, 255, 255);
@@ -104,8 +110,6 @@ nav>button>a{
     font-weight: 600;
     line-height: 23px;
     text-align: center;
-    padding: 0;
-    margin: 0;
     text-decoration: none;
 }
 .bg-header{
@@ -115,3 +119,92 @@ nav>button>a{
     background-position: center;
     background-size: cover;
 }
+/* banner styles end */
+
+/* why-web-dev styles start */
+#why-web-dev-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 74px 150px 74px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.why-web-dev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 97px;
+}
+.why-web-dev-content{
+    margin: 0px 47px;
+}
+.why-web-dev-content>h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 37px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.why-web-dev-content>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+.content{
+   width: 100%;
+}
+.content-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+}
+.content-description{
+    margin: 2px 0px;
+}
+.content-description>h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin: 0px 87px 16px 0px;
+}
+.content-description>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin: 0px 9px 32px 0px;
+}
+.content-description>button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+    margin: 0px;
+    padding: 12px 20px;
+}
+.content-description>button>a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+/* why-web-dev styles end */
+
+
