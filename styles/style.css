@@ -18,7 +18,18 @@ body{
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
-
+.lg-color3{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.lg-color4{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.lg-color5{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
 /* nav styles start*/
 nav{
     display: flex;
@@ -211,10 +222,8 @@ nav>button>a{
 /* my-inspiration styles start */
 #inspiration-container{
     margin: 0px 150px 149px 150px;
-    border: 2px solid red;
 }
 .inspiration-title-description{
-    border: 2px solid red;
     margin: 0px 144px 48px 144px;
 }
 .inspiration-title-description>h3{
@@ -223,7 +232,7 @@ nav>button>a{
     font-size: 37px;
     font-weight: 800;
     text-align: center;
-    margin: 0px 87px 16px 0px;
+    margin-bottom: 24px;
 }
 .inspiration-title-description>p{
     color: rgb(13, 19, 33);
@@ -236,7 +245,6 @@ nav>button>a{
     margin: 0px 9px 32px 0px;
 }
 .video-bg{
-    border: 2px solid red;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -244,12 +252,81 @@ nav>button>a{
 
 }
 .video-content{
-    border: 2px solid red;
     margin: 32px;
-   
 }
 .main-video{
     border-radius: 16px;
 }
 /* my-inspiration styles end */
+
+
+/* current-target styles start */
+.current-target-container{
+    margin: 0px 150px 111px 150px;
+}
+.current-target-title-description{
+    margin: 0px 144px 48px 144px;
+}
+.current-target-title-description>h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 37px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.current-target-title-description>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0px 9px 32px 0px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.skills{
+    width: 30%;
+}
+.skill{
+    margin: 40px;
+}
+.skill>img{
+    margin-bottom: 24px;
+}
+.skill>h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.skill>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.skill>a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* current-target styles end */
+
 
