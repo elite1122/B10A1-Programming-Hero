@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Azeret Mono, serif;
 }
@@ -37,7 +40,6 @@ nav{
 }
 nav>h4{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
     margin: 47px 0px 47px 150px;
@@ -56,7 +58,6 @@ nav button{
 nav>button>a{
     text-decoration: none;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -84,21 +85,16 @@ nav>button>a{
 }
 .banner h2{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
     text-align: center;
     margin: 32px 73px 0px 73px;
-    padding: 0;
-    margin: 0;
 }
 .banner>p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     text-align: center;
     margin: 24px 73px 32px 73px;
     opacity: 0.7;
@@ -116,10 +112,8 @@ nav>button>a{
 }
 .banner>button>a{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 600;
-    line-height: 23px;
     text-align: center;
     text-decoration: none;
 }
@@ -153,7 +147,6 @@ nav>button>a{
 }
 .why-web-dev-content>h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
@@ -161,10 +154,8 @@ nav>button>a{
 }
 .why-web-dev-content>p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     text-align: center;
     opacity: 0.7;
 }
@@ -181,7 +172,6 @@ nav>button>a{
 }
 .content-description>h3{
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -190,10 +180,8 @@ nav>button>a{
 }
 .content-description>p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     text-align: left;
     opacity: 0.7;
     margin: 0px 9px 32px 0px;
@@ -211,7 +199,6 @@ nav>button>a{
 .content-description>button>a{
     text-decoration: none;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -228,7 +215,6 @@ nav>button>a{
 }
 .inspiration-title-description>h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
@@ -236,10 +222,8 @@ nav>button>a{
 }
 .inspiration-title-description>p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     text-align: center;
     opacity: 0.7;
     margin: 0px 9px 32px 0px;
@@ -269,7 +253,6 @@ nav>button>a{
 }
 .current-target-title-description>h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
@@ -277,10 +260,8 @@ nav>button>a{
 }
 .current-target-title-description>p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     text-align: center;
     opacity: 0.7;
     margin: 0px 9px 32px 0px;
@@ -338,7 +319,7 @@ nav>button>a{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 .support-box{
     margin: 64px 48px;
@@ -348,7 +329,6 @@ nav>button>a{
 }
 .support-title-description>h3{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
@@ -356,10 +336,8 @@ nav>button>a{
 }
 .support-title-description>p{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     text-align: center;
     opacity: 0.7;
 }
@@ -382,7 +360,6 @@ nav>button>a{
     align-items: center;
     padding: 19px 20px 19px 20px;
     color: rgba(13, 19, 33, 0.4);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -404,7 +381,6 @@ nav>button>a{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -416,13 +392,19 @@ nav>button>a{
 footer{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid white;
 }
 .footer-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 32px 150px;
+}
+.footer-info>p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
 }
 .footer-info>ul{
     display: flex;
