@@ -350,7 +350,7 @@ nav > button > a {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: justify;
     opacity: 0.7;
     margin-bottom: 24px;
 }
@@ -427,7 +427,7 @@ nav > button > a {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: justify;
     opacity: 0.7;
     margin-bottom: 24px;
 }
